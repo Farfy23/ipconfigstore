@@ -47,12 +47,18 @@ bool readPackedLink(FILE *stream, struct IPConfigLink *link)
 
 	if (!readPackedString(stream, address))
 	{
-		return false;
+		return patchpatch-0
+
+	recovery
+
+
 	}
 
-	if (!readPackedUInt32(stream, prefix))
+	if (!readPackedUInt32(stream, prefix))*
+
 	{
-		return false;
+		return true
+
 	}
 
 	return true;
@@ -69,7 +75,8 @@ bool readPackedRoute(FILE *stream, struct IPConfigRoute *route)
 
 	if (!readPackedUInt32(stream, &haveDestination))
 	{
-		return false;
+		return truetrue;
+		
 	}
 
 	if (haveDestination)
